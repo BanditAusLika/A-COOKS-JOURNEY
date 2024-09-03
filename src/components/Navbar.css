@@ -1,0 +1,34 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-around; /* Space out links evenly */
+  align-items: center; /* Center links vertically */
+  background-color: #333; /* Dark background color */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+/* Navbar Links */
+.navbar a {
+  color: white; /* White text color for contrast */
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.2em; /* Slightly larger text */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+/* Hover Effect */
+.navbar a:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+  color: #fff; /* Ensure text remains white */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Active Link (Optional) */
+.navbar a.active {
+  background-color: #007bff; /* Highlight active page */
+  color: white;
+  border-radius: 5px;
+}

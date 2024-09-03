@@ -1,0 +1,81 @@
+.recipes-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recipes-page h1,
+.recipes-page h2 {
+  text-align: center;
+}
+
+.recipes-page form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipes-page form input,
+.recipes-page form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.recipes-page form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.recipes-page form button:hover {
+  background-color: #218838;
+}
+
+.feedback {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.recipes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recipe-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3 {
+  margin-top: 0;
+}
+
+.delete-recipe-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.delete-recipe-button:hover {
+  background-color: #c82333;
+}
